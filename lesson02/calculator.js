@@ -1,0 +1,12 @@
+let x = 2;
+let y = 3;
+let a = 10;
+let b = 5;
+let xySum = x + y;
+let ayRemainder = a % y;
+console.log (xySum);
+console.log (y * a / b);
+console.log (b + a / x);
+console.log ((b+a) / x);
+console.log (a % x);
+console.log (ayRemainder);
