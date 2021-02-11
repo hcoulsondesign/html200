@@ -1,4 +1,4 @@
-let ausStates = ['Queensland', 'New South Wales', 'Victoria', 'Northern Territory', 'Western Australia'];
+let ausStates = ['Queensland', 'New South Wales', 'Victoria', 'South Australia', 'Northern Territory', 'Western Australia'];
 
 console.log(ausStates);
 
