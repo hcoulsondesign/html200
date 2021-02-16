@@ -1,9 +1,13 @@
+const instructions = '\'B\' to view balance, \'D\' to make a deposit, \'W\' to withdraw money, or \'Q\' to quit';
+let balance = 5000;
+
 function action() {
-  let selection = prompt('Press a key to choose an action: \'B\' to view balance, \'D\' to make a deposit, \'W\' to withdraw money, or \'Q\' to quit');
+  let selection = prompt(`Press a key to choose an action: ${instructions}`);
 
   switch (selection) {
     case 'B':
-      console.log('balance');
+      alert(`Your balance is $${balance}.`);
+      let selection = prompt(`Would you like to do something else? Press ${instructions}`);
       break;
     case 'D':
       console.log('deposit');
@@ -11,7 +15,7 @@ function action() {
     case 'W':
       console.log('withdraw');
     case 'Q':
-      console.log('quit');
+      return;
     default:
       help = 'Unknown entry value. Please select one of the listed letter options or press \'Q\' to exit';
       alert(help);
