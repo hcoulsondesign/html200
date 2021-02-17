@@ -1,6 +1,6 @@
 //Set variables
 const instructions = '\'B\' to view balance, \'D\' to make a deposit, \'W\' to withdraw money, or \'Q\' to quit';
-let balance = 5000;
+let balance = 3000;
 
 //Helpful internal functions set below:
 
