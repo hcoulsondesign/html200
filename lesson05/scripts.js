@@ -73,6 +73,7 @@ function action() {
 
   switch (selection) {
     case 'B':
+      console.log('the use chose to view balance');
       alert(`Your balance is $${balance.toFixed(2)}.`);
       console.log('action() called at end of case B switch');
       action();
